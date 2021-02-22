@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'avenir', arial, sans-serif;
 }
 
 .App-logo {
@@ -7,14 +8,14 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
 .App-header {
-  background-color: #282c34;
+  background-color: #A3262A;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  margin: 10px auto 20px auto;
 }

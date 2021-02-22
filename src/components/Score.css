@@ -1,0 +1,15 @@
+.Score {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.Score > div {
+  width: 10vh;
+  margin: 1vh;
+  text-align: center;
+  line-height: 10vh;
+  font-size: calc(10px + 2vmin);
+}

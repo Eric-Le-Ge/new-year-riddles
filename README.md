@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# New Year Riddles
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A basic React website for playing with lunar new year riddles, or for any holiday you'd like!
+Created with [Create React App](https://github.com/facebook/create-react-app).
+
+![Example](public/sample.png)
+
+## Updating Riddles
+
+To update any riddle, you will need to modify `src/riddles.js`. The app does not expose answers in the source code. Use the `hashCode` provided in `src/App.js` to compute the hash for your answer.
 
 ## Available Scripts
 
