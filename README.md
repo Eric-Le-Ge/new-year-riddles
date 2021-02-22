@@ -7,7 +7,7 @@ Created with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Updating Riddles
 
-To update any riddle, you will need to modify `src/riddles.js`. The app does not expose answers in the source code. Use the `hashCode` provided in `src/App.js` to compute the hash for your answer.
+To update any riddle, you will need to modify `src/riddles.js`. The app does not expose answers in the source code. Use the `hashCode` function provided in `src/App.js` to compute the hash for your answer.
 
 ## Available Scripts
 
